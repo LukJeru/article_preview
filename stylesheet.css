@@ -26,20 +26,55 @@ body{
   margin-left: 5rem;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .social_link{
   display: flex;
+  justify-content: space-around;
 }
 
-.social_link img{
+.name{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 1rem;
+}
+
+#avatar{
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
+}
+
+.arrow{
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  top: 2rem;
+}
+
+#share{
+  width: 100%;
+  height: auto;
+  display: cover;
 }
 
 /*text*/
 
 h1, h2, h3 {
   font-family: "Manrope";
+  color: hsl(217, 19%, 35%);
+}
+
+h1{
+
+}
+
+p{
+  color: hsl(214, 17%, 51%);
+}
+
+h3{
+  color: hsl(212, 23%, 69%);
 }
