@@ -1,1 +1,4 @@
-alert("Hello, I'm an alert!")
+const share = document.getElementById("share")
+
+function popup(event) {
+}

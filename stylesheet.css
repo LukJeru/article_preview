@@ -79,6 +79,17 @@ body{
   display: cover;
 }
 
+#speechBubble{
+  display: flex;
+  justify-content: space-around;
+  width: 12rem;
+  height: 3rem;
+  background-color: hsl(217, 19%, 35%);
+  position: relative;
+  bottom: 3rem;
+  left: 17rem;
+}
+
 /*text*/
 
 h1, h2, h3 {
